@@ -2,17 +2,17 @@
 
 function writeCards(name, event){
   
-  let thankYouCard=[];
+  let thankYouCard = [];
   for(i = 0; i<name.length;i++);
   thankYouCard.push(`thank you ${name[i]}, for the wonderful ${event} gift!`);
-   return thankYouCard;
+   
 }
 
-
+return thankYouCard;
 
 
 function countdown(i){
-  while(i>0);{
+  while(i>0){
     console.log(i);
     i--;
   }
@@ -20,28 +20,3 @@ function countdown(i){
 }
 countdown(10);
 
-
-
-
-
-// function writeCards(name, event) {
-
-//       let thankYouCard = [] /
-//     for (let i = 0; i < name.length; i++) {
-    
-//     thankYouCard.push(`Thank you, ${name[i]}, for the wonderful ${event} gift!`);
-//   }
-//   return thankYouCard; 
-
-
-
-
-// function countdown(i){
-//   while ( i > 0){
-//     console.log(i); 
-//     i--;
-//   }
-//   console.log(i);
-// }
-
-// countdown(10);
